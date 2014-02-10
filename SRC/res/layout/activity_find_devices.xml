@@ -15,18 +15,12 @@
         android:text="@string/txtvDevicesListLabel_Txt"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
-    <ScrollView
-        android:id="@+id/scrlDeviceList"
+    <ListView
+        android:id="@+id/lstvDeviceList"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:layout_above="@+id/btnSearchDevices"
-        android:layout_below="@+id/txtvDevicesListLabel" >
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical" >
-        </LinearLayout>
-    </ScrollView>    
+        android:layout_below="@+id/txtvDevicesListLabel" />
     
     <Button
         android:id="@+id/btnSearchDevices"
