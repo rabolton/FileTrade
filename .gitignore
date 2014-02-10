@@ -1,3 +1,5 @@
+# Remove vim swp files
+*.swp
 # built application files
 *.apk
 *.ap_

@@ -1,5 +1,6 @@
-package uk.co.rob_bolton.filetrade;
+package uk.co.rob_bolton.viewer.filetrade;
 
+import uk.co.rob_bolton.filetrade.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;

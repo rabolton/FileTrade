@@ -19,7 +19,7 @@
         android:id="@+id/scrlDeviceList"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:layout_above="@id/btnSearchDevices"
+        android:layout_above="@+id/btnSearchDevices"
         android:layout_below="@+id/txtvDevicesListLabel" >
         <LinearLayout
             android:layout_width="match_parent"
